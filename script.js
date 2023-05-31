@@ -154,7 +154,7 @@ function finish() {
     scoreText.innerHTML += score + " words";
     main[0].appendChild(scoreText);
 
-    let tryAgain = document.createElement("div");
+    let tryAgain = document.createElement("button");
     tryAgain.className = "mainButton";
     tryAgain.innerHTML += "Try again";
     tryAgain.onclick = function() {
